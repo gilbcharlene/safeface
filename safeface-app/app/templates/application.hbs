@@ -1,0 +1,42 @@
+ <div class="grid">
+  <header class="col-1-1">
+    <div id="branding">
+          {{#link-to 'home'}}<img src="img/logo_safeface-bias-recognition.png" id="logo" alt="SafeFace Bias Recognition" />{{/link-to}}
+          <nav id="menu">
+            <ul>
+
+              <li>
+              {{#if session.isAuthenticated}}
+                <button id="cta-header">
+                  {{#link-to 'home'}}
+                    Welcome! Click {{#link-to 'logout'}}here{{/link-to}} to logout.
+                  {{/link-to}}
+                </button>
+              {{else}}
+                <button id="cta-header">
+                  {{#link-to 'login'}}
+                    <img src="img/button_cta-header.png" alt="Sign up - with Facebook" />
+                  {{/link-to}}
+                </button>
+              {{/if}}
+              </li>
+
+              <li>{{#link-to 'home'}}Home{{/link-to}}</li>
+              <li>{{#link-to 'about'}}About{{/link-to}}</li>
+
+            </ul>
+          </nav>
+        </div>
+        </header>
+
+        {{outlet}}
+
+                  <footer id="sitewide">
+        <ul>
+          <li><a href="">Take the Test</a></li>
+            <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+        <p>Your personal data will not be shared with a 3rd party.</p>
+      </footer>
+    </div>
