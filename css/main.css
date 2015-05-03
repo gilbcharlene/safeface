@@ -1,0 +1,254 @@
+/*---
+
+
+ * @name: 
+ * @url 
+ * @version: 1.0
+ * @last-update: 
+ ** Copyright (c) 2012.
+ 
+ 
+ ---*/
+
+body 
+  {
+  background: #f6f6f6 url(../img/bg_ssp.png) repeat-x top;
+  }
+  
+body.internal
+  {
+  background: url(../img/bg_ssp_internal.png) repeat-x top;
+  }
+
+
+body.internal #feature
+	{
+	background: #059A62;
+	height: 172px;
+	}
+
+
+	
+img,
+a 
+	{
+	border: none;
+	}
+	
+article, section {font-family: 'PT Sans'}
+
+li {list-style-type: none;}
+
+header
+	{ height: 80px;
+	margin: 0;
+	}
+
+
+
+#branding 
+	{
+	
+	height: 80px;
+	
+	}
+
+#logo 
+	{
+	float: left;
+	
+
+	margin: 5px 0 0 0;
+	
+	}
+
+	
+#logotype 
+	{
+	float: left;
+	
+	margin: 18px 0 0 5px;
+
+	}		
+
+#menu 
+	{
+	padding: 12px 0 0 0;
+
+	}	
+#menu li 
+	{
+	float: left;
+	font: 1em roboto;
+	margin: 0 15px;
+	padding: 0px 0px;
+	text-transform: uppercase;
+	}
+	
+
+#menu li:hover 
+	{
+	background: url(../img/bg_menu-li-state.png) repeat-x top center;
+	}
+	
+#menu a:link,
+#menu a:visited
+	{
+	color: #444;
+	text-decoration: none;
+	}
+#menu .sub-menu li
+	{
+	
+	float: none;
+	font: .6em arial;
+	line-height: 1.5;
+	margin: 1px 0 0 0;
+	text-transform: none;
+	}
+
+#menu .sub-menu li:hover 
+	{
+	background: none;
+	}
+	
+#feature 
+	{
+	background: #059A62;
+	border-bottom: 5px solid #01172C;
+	
+	height: 360px;
+	margin: 10px 0 0 0;
+	padding: 0 30px;
+	}
+
+.tagline 
+	{
+	color: #bababa;
+	font: bold 1.8em 'Lato';
+	margin: 0 0 0 250px;
+	padding: 27px 0 0 0;
+	text-align: center;
+	text-transform: uppercase;
+	word-spacing: .04em;
+	}
+
+#intro 
+	{
+	color: #fff;
+	font: 100% 'PT Sans';
+	line-height: 1.5;
+	padding: 0 0 0 300px;
+	width: 440px;
+	}
+
+#cta-feature 
+	{
+	position: absolute;
+	right: 300px;
+	top: 354px;
+	}
+	
+#results-reel h1
+	{
+	font: 1.5em Roboto;
+	text-align: center;
+	} 
+	
+#results-reel li
+	{
+	
+	text-align: center;
+	}   
+
+#results-reel h2
+	{border-left: 1px dashed #bbb;
+	color: #01172C;
+	font:  1em Jura;
+	}  
+	
+#results-reel p
+	{
+	color: #01172C;
+	font: italic .8em Jura;
+	padding: 0 0 6px 0;
+	} 
+
+#results-reel h2:first-child
+	{
+	
+	}  
+		
+#results
+	{
+	border-bottom: 1px dashed #ddd;
+	}  
+  
+#about-short h1 
+	{
+	font: 1em 'PT Sans';
+	}
+	
+#certs 
+	{
+	
+	padding: 0px 0 18px 0;
+	}
+	
+#certs li 
+	{
+	float: left;
+	margin: 9px 10px;
+	}
+	
+#details {margin: 0 0 0 200px}
+	
+	
+#benefits-leadin  h1
+	{
+	font: 1em 'PT Sans';
+	text-align: center;
+	}
+	
+#benefits-leadin article 
+	{
+	
+	}
+	
+#benefits-leadin article h1
+	{
+	font: 1em Signika;
+	text-transform: uppercase;
+	}
+	
+#benefits-leadin article p
+	{
+	font: .9em 'PT Sans';
+	padding: 0 10px;
+	}
+
+#benefits-cta 
+	{
+	text-align: center;
+	}
+#right h1 
+	{
+	font: 1.5em 'PT Sans';
+	text-align: center;
+	}
+
+
+aside#leadin-sitewide 
+	{
+	background: #ccc;
+	}
+
+footer 
+	{
+	background: #ccc;
+	}
+	
+#sitemap li 
+	{
+	font: .6em 'PT Sans';
+	}

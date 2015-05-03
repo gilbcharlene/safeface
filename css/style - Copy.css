@@ -1,0 +1,136 @@
+/*---
+
+
+ * @name: 
+ * @url 
+ * @version: 1.0
+ * @last-update: 
+ ** Copyright (c) 2012.
+ 
+ 
+ ---*/
+ 
+
+body.internal #feature
+	{
+	height: 180px;
+	}
+img,
+a 
+	{
+	border: none;
+	}
+	
+article, section {font-family: 'PT Sans'}
+
+li {list-style-type: none;}
+
+body 
+  {
+  background: url(../img/bg_inbounddna.jpg) repeat-x top;
+  }
+
+aside#lead-ins 
+	{
+	background: #eee;
+	
+	height: 200px;
+	width: 200px;
+	}
+
+#logo 
+	{
+	float: left;
+	margin: 0px 40px 0 0;
+	}
+	
+#menu li 
+	{
+	float: left;
+	font: 93% verdana;
+	margin: 0 10px;
+	padding: 3px 5px;
+	text-transform: uppercase;
+	}
+	
+
+#menu li:hover 
+	{
+	background: url(../img/bg_menu-li-state.png) repeat center;
+	}
+
+#feature 
+	{
+	background: #059A62 url(../img/bg_feature-home.png) no-repeat center;
+	border-top: 5px solid #005B2F;
+	height: 324px;
+	padding: 30px 0 0 0;
+	}
+	
+#feature-summary 
+	{
+	background: #005B2F;
+	height: 108px;
+	}
+	
+#feature-summary li
+	{
+	float: left;
+	}
+
+
+.tagline 
+	{
+	color: #bababa;
+	font: 159% 'Nevis';
+	margin: 18px 0 0 200px;
+	text-align: center;
+	text-transform: uppercase;
+	}
+	
+#intro 
+	{
+	color: #fff;
+	font: 100% 'PT Sans';
+	line-height: 1.5;
+	padding: 0 0 0 300px;
+	width: 440px;
+	}
+
+#cta-feature 
+	{
+	position: absolute;
+	right: 300px;
+	top: 392px;
+	}
+
+#about-short 
+	{
+	font-size: 75%;
+	
+	}
+
+#about-short h1
+	{
+	font: 108% Nevis;
+	padding: 54px 0 0 0;
+	text-transform: uppercase;
+	}
+
+#certs 
+	{
+	
+	padding: 36px 0 18px 0;
+	}
+	
+#certs li 
+	{
+	float: left;
+	margin: 9px 10px;
+	}
+
+#service-summary article h1
+	{
+	font: 108% Signika;
+	text-transform: uppercase;
+	}

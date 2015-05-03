@@ -1,0 +1,245 @@
+/*---
+
+
+ * @name: 
+ * @url 
+ * @version: 1.0
+ * @last-update: 
+ ** Copyright (c) 2012.
+ 
+ 
+ ---*/
+ 
+
+body.internal #feature
+	{
+	height: 180px;
+	}
+	
+body 
+  {
+  background: #f6f6f6 url(../img/bg_safeface.jpg) center center no-repeat fixed;
+  background-size: cover;
+  }
+  
+body#test
+  {
+  background: #f6f6f6 url(../img/bg_internal.jpg) center center no-repeat fixed;
+  background-size: cover;
+  }
+  
+  
+img,
+a 
+	{
+	border: none;
+	}
+	
+article, section {font-family: 'PT Sans'}
+
+li {list-style-type: none;}
+
+header
+	 {
+	 	border-bottom: 1px solid #C5CADD;
+	 	height: 100px;
+	 }
+
+aside#lead-ins 
+	{
+	background: #eee;
+	
+	height: 200px;
+	width: 200px;
+	}
+
+#logo 
+	{
+	float: left;
+	margin: 18px 40px 0 0;
+	padding: 0  0 18px 0;
+	
+	}
+	
+#cta-header 
+	{
+		background: transparent;
+		border: none;
+	}
+#intro 
+	{
+    
+	clear: left;
+	padding: 54px 0% 9px 0%;
+	
+	}
+	
+#intro h1 
+	{
+		font: 250% Georgia;
+		
+		padding: 0 5% 0 5%;
+	}
+	
+
+#intro h2 
+	{
+		font: 93% Georgia;
+		padding: 0 0 18px 0;
+		
+	}
+	
+	
+#menu 
+	{
+	float: right;
+	}
+	
+#menu li 
+	{
+	float: left;
+	font: 93% verdana;
+	margin: 0 10px;
+	padding: 3px 5px;
+	text-transform: uppercase;
+	}
+
+#menu li a:link,
+#menu li a:visited
+	{
+		color: #080808;
+		text-decoration:none;
+	}
+	
+#menu li a:hover
+	{
+		color: #fff;
+		text-decoration:none;
+	}	
+	
+.stats-home
+	 {
+	 	padding: 18px 0 0 0;
+	 }
+.stats-item 
+	{
+		background: url(../img/bg_stats-item.png) no-repeat;
+		height: 160px;
+		float: left;
+		margin: 0 40px 18px 0;
+		width: 160px;
+	}
+	
+.stat 
+	{
+		font: bold 163.91% arial;
+		margin: 54px 40px; 0 40px;
+	}
+
+.stat-notes 
+	{
+	font: 85% arial;	
+	margin: 9px 0 0 0;
+	}
+
+.cta 
+	{
+		
+		
+		margin: 18px 0;
+	}
+	
+	
+.cta-heading 
+	{
+		clear: left;
+		font: 138.5% georgia;
+	    margin: 9px 15%;
+	}
+
+#cta-main 
+	{
+		border: none;
+		background: transparent;
+		clear: left;
+		display: block;
+		
+	}
+	
+#process
+	 {
+	 	border-bottom: 1px solid #AABEBB;
+	 	border-top: 1px solid #AABEBB5;
+	 	clear: left;
+	 	height: 150px;
+	 	margin: 18px 0;
+	 }
+
+#process li 
+	{
+		float: left;
+		font: 138.5% georgia;
+		margin: 18px 20px;
+	}
+	
+#process span
+	{
+		
+		margin: 0 0 0 20px;
+	}
+
+#about 
+	{
+	
+		border-bottom: 1px solid #AABEBB;
+		margin: 0 0 54
+		px 0;
+		padding: 0 0 36px 0;
+	}
+	
+
+
+#about p 
+	{
+		font: 123.1% arial;
+		margin-left: 8.33%
+		margin-right: 8.33%
+	}
+	
+
+#faq h2
+ {
+ 	font: 123.1% Georgia;
+ }
+
+#sitewide ul 
+	{
+		font: 93% verdana;
+		text-align: center;
+	}	
+	
+#sitewide li 
+	{
+		float: left;
+	}
+	
+	
+#sitewide  li a:link,
+#sitewide  li a:visited
+	{
+		color: #080808;
+		text-decoration:none;
+	}
+	
+#sitewide p
+	{
+		clear: left;
+		text-align: center;
+	}
+#menu li a:hover
+	{
+		color: #fff;
+		text-decoration:none;
+	}	
+	
+#sign-up {text-align: center}

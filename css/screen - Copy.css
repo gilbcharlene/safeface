@@ -1,0 +1,45 @@
+/*---
+
+
+ * @name: Screen
+ * @url http://andjustice.org/
+ * @version: 1.0
+ * @last-update: April 2012
+ ** Copyright (c) 2012.
+ 
+ 
+ ---*/
+ 
+
+@import url(src/reset.css);
+@import url(src/layout.css);
+@import url(src/type.css);
+
+
+body 
+  {
+  background: url(../img/.png) repeat-x;
+  }
+
+
+
+#container 
+  {
+  
+/* background: url(../img/grid.png) repeat-x;*/
+  height:auto;
+ } 
+
+
+#masthead
+  {
+   height: 81px;
+   position: relative;
+  }
+  
+#logo 
+	{
+	float: left;
+	margin: 18px 40px 0 0;
+	}
+

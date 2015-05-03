@@ -1,0 +1,72 @@
+/*---
+
+
+ * @name: Screen
+ * @url http://andjustice.org/
+ * @version: 1.0
+ * @last-update: April 2012
+ ** Copyright (c) 2012.
+ 
+ 
+ ---*/
+ 
+/*---
+
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.7.0
+ /**
+ * YUI Fonts
+ * @module fonts
+ * @namespace yui-
+ * @requires 
+ *
+ ---*/
+
+ 
+/**
+ * Percents could work for IE, but for backCompat purposes, we are using keywords.
+ * x-small is for IE6/7 quirks mode.
+*/
+ 
+body 
+  {
+  font:13px/1.231 arial,helvetica,clean,sans-serif;
+  }
+
+/**
+ * Nudge down to get to 13px equivalent for these form elements
+ */ 
+ 
+select,
+input,
+button,
+textarea,
+button 
+  {
+  font:99% arial,helvetica,clean,sans-serif;
+  }
+
+/**
+ * To help tables remember to inherit
+ */
+ 
+table 
+  {
+  font-size:inherit;
+  }
+
+/**
+ * Bump up IE to get to 13px equivalent for these fixed-width elements
+ */
+pre,
+code,
+kbd,
+samp,
+tt 
+  {
+  font-family:monospace;
+  line-height:100%;
+  }
+

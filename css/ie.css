@@ -1,0 +1,202 @@
+/*---
+
+
+ * @name: Screen
+ * @url http://andjustice.org/
+ * @version: 1.0
+ * @last-update: April 2012
+ ** Copyright (c) 2012.
+ 
+ 
+ ---*/
+ 
+
+
+
+/**
+ * Percents could work for IE, but for backCompat purposes, we are using keywords.
+ * x-small is for IE6/7 quirks mode.
+*/
+ 
+body 
+  {
+  /* for IE6/7 */ 
+  *font-size:small; 
+  /* for IE Quirks Mode */
+  *font:x-small; 
+  }
+
+
+/**
+ * Bump up IE to get to 13px equivalent for these fixed-width elements
+ */
+pre,
+code,
+kbd,
+samp,
+tt 
+  {
+  *font-size:108%;
+  }
+
+
+
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input,
+button,
+textarea,
+select 
+  {
+  *font-size: 100%;
+  }
+
+
+
+
+
+#container
+  {
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+  position:relative;
+  text-align: left;
+}
+
+
+/* =GRID
+--------------------------------------------- */             
+/* Set width for grid/page container */
+
+.grid-960
+  {
+  *width:72.00em;
+  }
+
+.grid-1060 
+    {
+    *width:79.50em;
+    }
+    
+.grid-1080 
+    {
+    *width:81.00em;
+    }  
+    
+
+/* =COL
+--------------------------------------------- */             
+/* Set width for columns/containers/wrappers */
+
+.col-160 
+    {
+    *width:12.00em;
+    }
+
+.col-220 
+    {
+    *width:16.50em;
+    }
+    
+.col-300 
+    {
+    *width:22.50em;
+    }
+    
+.col-340 
+    {
+    *width:25.50em;
+    }
+
+.col-380 
+    {
+    *width:28.50em;
+    }
+    
+.col-400
+    {
+    *width:30.00em;
+    }
+    
+.col-460
+    {
+    *width:34.50em;
+    }
+    
+.col-520 
+    {
+    *width:39.00em;
+    }
+
+.col-540 
+    {
+    *width:40.50em;
+    }
+    
+.col-580 
+    {
+    *width:43.50em;
+    }
+
+.col-620 
+    {
+    *width:46.50em;
+    }
+    
+.col-640 
+    {
+    *width:48.00em;
+    }
+
+.col-700 
+    {
+    *width:52.50em;
+    }
+    
+.col-760 
+    {
+    *width:57.00em;
+    }  
+
+.col-780 
+    {
+    *width:58.50em;
+    }  
+   
+.col-820 
+    {
+    *width:61.50em;
+    }  
+
+.col-860 
+    {
+    *width:64.50em;
+    }  
+       
+.col-880 
+    {
+    *width:66.00em;
+    }  
+
+.col-960 
+    {
+    *width:72.00em;
+    }       
+
+.col-1060 
+    {
+    *width:79.50em;
+    }
+    
+.col-1080 
+    {
+    *width:81.00em;
+    } 
+    
+    
+.thumb-80 
+    {
+    *width:6.00em;/* IE */
+    } 

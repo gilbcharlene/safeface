@@ -1,0 +1,220 @@
+/*---
+
+
+ * @name: Screen
+ * @url http://andjustice.org/
+ * @version: 1.0
+ * @last-update: April 2012
+ ** Copyright (c) 2012.
+ 
+ 
+ ---*/
+ 
+#container
+  {
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+  position:relative;
+  text-align: left;
+}
+
+
+/* =GRID
+--------------------------------------------- */             
+/* Set width for grid/page container */
+
+.grid-960
+  {
+  min-width:960px;
+  width:73.84em; 
+  }
+
+.grid-1060 
+    {
+    min-width:880px;
+    width:81.53em; 
+    }
+    
+.grid-1080 
+    {
+    min-width:1080px;
+    width:83.07em; 
+    }  
+    
+
+/* =COL
+--------------------------------------------- */             
+/* Set width for columns/containers/wrappers */
+
+
+.col-100 
+    {
+    min-width:100px;
+    width:7.69em; 
+    }
+    
+.col-140 
+    {
+    min-width:140px;
+    width:10.76em; 
+    }
+    
+.col-160 
+    {
+    min-width:160px;
+    width:12.30em; 
+    }
+
+.col-220 
+    {
+    min-width:220px;
+    width:16.92em; 
+    }
+
+.col-280 
+    {
+    min-width:280px;
+    width:21.53em; 
+    }
+        
+.col-300 
+    {
+    min-width:300px;
+    width:23.07em; 
+    }
+    
+.col-340 
+    {
+    min-width:340px;
+    width:26.15em; 
+    }
+
+.col-380 
+    {
+    min-width:380px;
+    width:29.23em; 
+    }
+    
+.col-400
+    {
+    min-width:400px;
+    width:30.76em; 
+    }
+    
+.col-460
+    {
+    min-width:460px;
+    width:35.38em; 
+    }
+    
+.col-520 
+    {
+    min-width:520px;
+    width:40.00em; 
+    }
+
+.col-540 
+    {
+    min-width:540px;
+    width:41.53em; 
+    }
+    
+.col-580 
+    {
+    min-width:580px;
+    width:44.61em; 
+    }
+
+
+.col-600 
+    {
+    min-width:600px;
+    width:46.15em; 
+    }
+    
+.col-620 
+    {
+    min-width:580px;
+    width:47.69em; 
+    }
+    
+.col-640 
+    {
+    min-width:640px;
+    width:49.23em; 
+    }
+
+.col-700 
+    {
+    min-width:700px;
+    width:53.84em; 
+    }
+    
+.col-760 
+    {
+    min-width:760px;
+    width:58.46em; 
+    }  
+
+.col-780 
+    {
+    min-width:760px;
+    width:60.00em; 
+    }  
+   
+.col-820 
+    {
+    min-width:820px;
+    width:63.07em; 
+    }  
+
+.col-860 
+    {
+    min-width:860px;
+    width:66.15em; 
+    }  
+       
+.col-880 
+    {
+    min-width:880px;
+    width:67.69em; 
+    }  
+
+.col-900 
+    {
+    min-width:900px;
+    width:67.50em; 
+    }
+
+.col-920 
+    {
+    min-width:920px;
+    width:70.76em; 
+    } 
+    
+.col-960 
+    {
+    min-width:880px;
+    width:73.84em; 
+    }       
+
+.col-1060 
+    {
+    min-width:880px;
+    width:81.53em; 
+    }
+    
+.col-1080 
+    {
+    min-width:1080px;
+    width:83.07em; 
+    } 
+    
+    
+.thumb-80 
+    {
+    min-width:80px;
+    width:6.15em; 
+    } 
