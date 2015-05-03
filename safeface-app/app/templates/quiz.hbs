@@ -1,0 +1,21 @@
+<script type="text/javascript">
+
+	function JSONPHandler(data) {
+		var imageSet = data.images;
+		var lenImage = imageSet.length;
+		console.log(lenImage);
+		for (var i = 0; i &lt; lenImage; i++) {
+			(function(i) {
+				setTimeout(function() {
+					document.write('{ imgId: "' + i + '", imgSrc: "' + imageSet[i] + '", ethnicity: "Asian" }');
+				}, i * 500);
+			})(i);
+		}
+	}
+
+</script>
+
+<div class="container imageGet"></div>
+
+<script src="http://localhost:3000/?callback=JSONPHandler">
+</script>
