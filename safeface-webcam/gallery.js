@@ -2,8 +2,8 @@ Webcam.attach( '#my_camera' );
 // Paths to Test Images (insert a list of images here)
 var testImages = ["images/AF0304_1100_30R.jpg", "images/AF0305_3112_30R.jpg","images/AF0304_1101_NE.jpg","images/AF0308_2201_90L.jpg"];
 var observations = [];
-var app_key = "d90ad0fd4cbd425fa5a79eeb3621d30a";
-var client_id = "db0059bc52e24cca9e061ddacf820553";
+var app_key = "appid-here";
+var client_id = "clientid-here";
 var snap = null;
 
 var success = function(result) {
