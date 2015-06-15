@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="SafeFace is a Bias Recognition application created during the 2015 eMerge Americas hackathon aimed at identifying and addressing the biases we all hold.">
+		<meta name="keywords" content="implicit bias test,implicit bias,bias,bias detection,gender bias,racial bias,gender,race,bias recognition,implicit bias recognition,eMerge Americas,hackathon,eMerge Americas hackathon,GirlDevelopIt">
+		<meta name="robots" content="index,follow">
+		<title>SafeFace - Bias Recognition Demo</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/jquery.easy-pie-chart.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<script src="js/jquery.easypiechart.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".chart").easyPieChart({
+					barColor: "#5DBCD2",
+					scaleColor: false,
+					lineCap: "square",
+					lineWidth: 5
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="middle-fix">
+				<div class="container">
+					<header>
+					<div class="row">
+						<div class="col-xs-12 text-center">
+							<img class="logo" src="img/logo_safeface-bias-recognition.png" alt="SafeFace" />
+						</div>
+					</div>
+					</header>
+					<div class="row">
+						<div class="col-xs-12 text-center">
+							<section class="description">
+								<h1>Bias. It happens...to Everyone</h1>
+								<p>SafeFace is a <strong><em>Bias Recognition</em></strong> application used to detect implicit bias towards ethnicity, gender, age, weight, sexuality, and religion. It was created in 24 hours for the <em><a href="http://emergeamericas.org/hackathon/">2015 eMerge Americas Hackathon.</a></em></p>
+								<div class="col-xs-12 col-sm-4 statistic">
+									<div class="chart" data-percent="80"><span>80%</span></div>
+									<p>biased against elderly</p>
+								</div>
+								<div class="col-xs-12 col-sm-4 statistic">
+									<div class="chart" data-percent="69">69%</div>
+									<p>biased towards whites</p>
+								</div>
+								<div class="col-xs-12 col-sm-4 statistic">
+									<div class="chart" data-percent="19">19%</div>
+									<p>okay discussing biases</p>									
+								</div>
+								<br />
+								<a href="taketest.html" class="btn btn-safeface" aria-label="Take the SafeFace Test">
+									<span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Take the SafeFace Test
+								</a>
+								<p class="directions">
+									Click the button &rarr; View the Photos &rarr; Get Your Results
+								</p>
+								<a href="about.html" class="btn btn-safeface-info" aria-label="About SafeFace">
+									<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> Learn More About SafeFace
+								</a>
+								
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
