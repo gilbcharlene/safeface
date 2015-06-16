@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="SafeFace is a Bias Recognition application created during the 2015 eMerge Americas hackathon aimed at identifying and addressing the biases we all hold.">
+		<meta name="keywords" content="implicit bias test,implicit bias,bias,bias detection,gender bias,racial bias,gender,race,bias recognition,implicit bias recognition,eMerge Americas,hackathon,eMerge Americas hackathon,GirlDevelopIt">
+		<meta name="robots" content="index,follow">
+		<title>Setup Test | SafeFace - Bias Recognition Demo</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html">
+						<img src="img/logo_safeface-bias-recognition.png" alt="SafeFace" class="logo" />
+					</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">About</a></li>
+						<li class="active"><a href="#">Take The Test <span class="sr-only">(current)</span></a></li>
+						</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="wrapper">
+			<div class="middle-fix">
+				<div class="container half-white-box">
+					<div class="row">
+						<div class="col-sx-12">
+							<div class="page-header">
+								<h1 class="text-center">SafeFace Test Setup</h1>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 text-center">
+							<div class="alert alert-info" role="alert">
+								<span class="glyphicon glyphicon-alert"></span>&emsp;A webcam is required to take this test.
+							</div>
+							<div id="webcam"><img src="http://placehold.it/320x240" /></div>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<h3 class="panel-title">Setup Guide</h3>
+								</div>
+								<div class="panel-body">
+									<ol>
+										<li><strong>Allow Webcam Use</strong><p>A prompt will appear informing that SafeFace wants permission to use your camera. Click on Allow.</p></li>
+										<li><strong>Check Lighting Conditions</strong><p>The SafeFace test should be taken in a well-lit place free from glare.</p></li>
+										<li><strong>Get in position</strong><p>Make sure your entire face is captured in the preview to the left.</p></li>
+									</ol>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12 text-center">
+							<section id="ready">
+							</section>
+							<a href="index.html">Back to Homepage</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/webcam.js"></script>
+		<script type="text/javascript">
+			Webcam.set({
+				width: 320,
+				height: 240,
+				dest_width: 640,
+				dest_height: 480,
+				image_format: 'jpeg'
+			});
+			Webcam.on( "live", function () {
+				document.getElementById("ready").innerHTML = '<h4>Ready?</h4><a href="testinstructions.html" class="btn btn-safeface" aria-label="Take the SafeFace Test"><span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Continue</a><br />';
+			});
+			Webcam.on( "error", function (err) {
+				document.getElementById("ready").innerHTML = '<div class="alert alert-danger"><p>' + err + '</p></div>';
+			});
+			Webcam.attach( "#webcam" );
+		</script>
+	</body>
+</html>

@@ -17,14 +17,28 @@ body {
 	display: table-cell;
 	vertical-align: middle;
 }
-.container {
+
+.half-white-box, .full-white-box {
 	padding: 1em;
+}
+.half-white-box {
 	background-color: rgba(255, 255, 255, 0.55);
+}
+.full-white-box{
+	background-color: #fff;
+}
+.rounded-corners{
+	border-radius: 0.3em;
 }
 
 .logo {
 	margin:1em auto;
 }
+.navbar-header  img.logo{
+	height: 30px;
+	margin: 0.4em auto;
+}
+
 .description {
 	font-size: 1.75em;
 }
@@ -53,4 +67,8 @@ body {
 }
 .statistic p {
 	font-size: 0.6em;
+}
+
+#webcam {
+	margin: 1em auto;
 }
