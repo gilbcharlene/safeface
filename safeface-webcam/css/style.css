@@ -6,7 +6,6 @@ body {
 	background-size: cover;
 	font-family: "Domine", Georgia, "Times New Roman", Times, serif;
 }
-
 .wrapper {
 	display: table;
 	height: 100%;
@@ -17,7 +16,6 @@ body {
 	display: table-cell;
 	vertical-align: middle;
 }
-
 .half-white-box, .full-white-box {
 	padding: 1em;
 }
@@ -42,31 +40,51 @@ body {
 .description {
 	font-size: 1.75em;
 }
-.description a.btn {
-	font-family: Tahoma, sans-serif;	
-}
+
 .btn-safeface {
 	color: #fff;
 	background-color: #5DBCD2;
 	border-color: #4A96A8;
-	font-size: 0.9em;
 }
-
 .btn-safeface-info{
 	color: #fff;
 	background-color: #333;
 	border-color: #000;
-	font-size: 0.6em;
+
 }
-.description a.btn:hover{
+a.btn {
+	font-family: Tahoma, sans-serif;	
+}
+.description a.btn:hover, .about a.btn:hover{
 	color: #ddd;
 }
+.description .btn-safeface {
+	font-size: 0.9em;
+}
+.description .btn-safeface-info {
+		font-size: 0.6em;
+}
+.about .btn-safeface {
+	font-size: 1.3em
+}
+.about .btn-safeface-info{
+	font-size: 1em;
+	margin-top: 0.5em;
+}
+
 .directions {
 	margin-top:0.4em;
 	font-size: 0.9em;
 }
 .statistic p {
 	font-size: 0.6em;
+}
+
+.about {
+	margin-top: 2em;
+}
+.about p{
+	font-family: Tahoma, sans-serif;
 }
 
 #webcam {
