@@ -1,0 +1,5 @@
+js/dependencies
+node_modules
+test/*.*
+!test/*-keywords.txt
+test/images/**/*.*

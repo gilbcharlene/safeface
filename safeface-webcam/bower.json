@@ -1,0 +1,15 @@
+{
+	"name": "safeface-app",
+	"dependencies": {
+		"jquery.easy-pie-chart": "latest",
+		"webcamjs" : "latest",
+		"lokijs": "latest"
+	},
+	"dependenciesIgnore": {
+		"jquery": ["**","*.*","!dist/jquery.js"],
+		"jquery.easy-pie-chart": ["**","*.*","!dist/jquery.easypiechart.js"],
+		"webcamjs": ["*.*","!webcam.*"],
+		"lokijs": ["**","!build"],
+		"requirejs":["*.*","!require.js"]
+	}
+}
